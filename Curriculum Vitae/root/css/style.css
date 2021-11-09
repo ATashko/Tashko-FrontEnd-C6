@@ -1,0 +1,72 @@
+body {font-family: 'Lato', sans-serif;
+      background-color: black;
+      background-image: url(https://images.squarespace-cdn.com/content/v1/5ba14065d274cbff243beb08/1539798510541-5F9HJPF4VUFMKKP32J3M/4k-wallpaper-beautiful-close-up-1418116.jpg?format=1000w);
+      background-size: cover;
+      color: rgb(255, 255, 255);
+      font-size: 14px
+    }
+
+nav li{
+    color:rgb(250, 186, 186);
+    float: left;
+    font-family: 'Acme', sans-serif ;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: center;    
+    width: 400;        
+}
+
+li a:visited{
+    color:white
+}
+
+li a:link{
+    text-decoration: none;
+    color: white
+}
+#imagencentrada{
+    margin-left:45%;
+    }
+
+h1{
+    text-align: center;
+    font-family: 'Acme', sans-serif;;
+    color: rgb(250, 186, 186);
+    background-color: rgba(0, 0, 0, 70%);
+    letter-spacing: 4px;
+    width: 700;
+ }
+h2{
+    text-align: left;
+    font-family: 'Acme', sans-serif;
+    width: 400;
+    color: rgb(250, 186, 186);
+    background-color: rgba(0, 0, 0,70%);
+    letter-spacing: 2px;
+}
+
+.textodescriptivo{
+     font-weight: 700;
+     margin-left: 20px;
+}
+
+.textodescriptivoabajo{
+    font-weight: 400;
+    margin-left:105px;
+}
+
+.foot{
+    background-color:rgba(250, 186, 186, 70%);
+    color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;
+    font-size:20px;
+    text-align:center;  
+    
+}
+
+#redes{    
+    color: white;
+    font-size: 40px; 
+    margin-left: 2%;      
+}

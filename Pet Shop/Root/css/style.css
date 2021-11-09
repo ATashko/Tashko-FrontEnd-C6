@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#rectanguloNE{
+width: 1024px;
+height: 20px;
+left: calc(50% - 1024px/2);
+top: 0px;
+
+background: #222222;
+}
+
+#rectanguloN{
+
+width: 1024px;
+height: 62px;
+left: calc(50% - 1024px/2);
+top: 20px;
+
+background: #F0A83E;
+}
+
+.ofertasencomederos {
+
+width: 138px;
+height: 12px;
+left: calc(50% - 138px/2 - 353px);
+top: 4px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #F3F3F3;
+}
+.banner{
+    background-image: url(https://scontent.fbog4-2.fna.fbcdn.net/v/t1.15752-9/254762924_1303174763461973_1138654277050994973_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeGEJnCX9z2jKWo6bmaXNqqyWLPL_G9YiJxYs8v8b1iInKjYwrQnRJhVS6-lMwshZh0&_nc_ohc=gr61sGgr6OkAX8IoL6D&_nc_ht=scontent.fbog4-2.fna&oh=f0fab5f2ba621876774a400ec80be817&oe=61B04291) ;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    
+}
+
+
+nav li{
+    float:right;
+}
+
+h3 {
+    background-color:white;
+    color:#3C2313;
+    text-align: right;
+}
+
+.COMEDEROS{
+    color: white;
+    background-color: #F0A83E;
+    border-radius: 5px;
+}
+
