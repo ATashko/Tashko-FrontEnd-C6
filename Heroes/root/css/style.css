@@ -1,132 +1,175 @@
 
+
+
+    
+
 body{
-    background:white;
+
     font-family: 'Roboto', sans-serif;
 }
 
+
+div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .descuentos{
-    background-color: #1CD1B0;
+    background-color: #D1891C;
     display: block;
     font-size: 13px;
-    padding: 6px;
+    padding: 3vw;
+    padding-left: 18px;
 }
+
 
 h1{
     background-color: #00669F;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    padding: 28px;
-    border: 1px;
+    padding: 18vm ;
+    padding-left: 10px;
     border-color:#00669F ;
     margin-top: 0;
-
+    color: #F3F3F3;
+    font-size: 22px;
 }
 
-.section1{
-    width: 300px;
-    height: 536px; ;
-    position: absolute;
-    left: 35px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-        
+
+article{ 
+    position: relative;
 }
 
-.section2{
-    width: 300px;
-    height: 536px; ;
-    position: absolute;
-    left:350px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-        
-}
 
-.section3{
-    width: 300px;
-    height: 536px; ;
-    position: absolute;
-    left:665px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-        
-}
-.headerbatman{
+section{
     background-color: #F3F3F3 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    height: 536px;
+    margin-bottom: 50px; 
+    position: relative;
+    width: 300px;        
+}
+
+
+.headerbatman{    
     background-image: url(../img/portadaBatman.png);
     background-size:cover;
     border-top-left-radius: 15px ;
     border-top-right-radius: 20px;
-    height: 200px;
-    
+    height: 200px;    
 }
 
-.headerharley{
-    background-color: #F3F3F3 ;
-    background-image: url(../img/portadaHarley.png);
+
+.headermaravilla{    
+    background-image: url(../img/portadaMaravilla.png);
     background-size:cover;
     border-top-left-radius: 15px ;
     border-top-right-radius: 20px;
     height: 200px;
-    
+}   
+
+
+.headersuperman{    
+    background-image: url(../img/portadaSuperman.png);
+    background-size:cover;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 20px;
+    height: 200px;  
 }
+
+
+.headerharley{    
+    background-image: url(../img/portadaHarley.png);
+    background-size:cover;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 20px;
+    height: 200px;    
+}
+
+
 .foto-perfil{
     border-radius: 50%;
     position: relative;
+    height: 120px;
+    width: 120px;
     left: 30%;
-    top: 68%;
-    
+    top: 68%;    
 }
+
 
 .boton{
     background-color: #00669F ;
-    border: 0;
     color: #F3F3F3;
-    display: inline-block;
     font-size:12px;
-    left:30%;
-    margin: 0; 
-    padding: 15px 35px;
-    position:relative;
+    padding: 15px 35px; 
+    position: absolute;
+    text-align: center;
     text-decoration: none;
-    
+    width: 60px ;
+    right: 85px;
+    top: 250px;
+     
+      
 }
+
 
 .like{
     position:absolute;
     top:2%;
-    left:5%
+    left:5%;
 }
 
-.perfil{
+
+p{
     color: #333333;
     font-size: 14px;
     line-height: 17px;
-
-    padding: 30px;
-
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-.batman{
-    font-size: 27px;
-    left:30%;
-    position:relative;
-    top:8%;
-    letter-spacing: 2px;
-    
-}
 
-.harley{
-    font-size: 27px;
-    left:20%;
-    position:relative;
-    top:8%;
-    letter-spacing: 2px;
+
+h2{
+    text-align: center ;
+    font-size: 25px;
+    padding-top:50px;    
 }
 
 
 
 .copyright{
+    align-items: center;
     background-color: #00669F;
     color:#FFF9F9;
+    display: flex;
     font-size: 14px;
-    padding: 10px;
-    position:relative;
-    top: 600px;
+    padding: 20px;   
+    justify-content: center; 
+    
 }
+
+.git{
+    height: 20px;
+    position: absolute;
+    right: 25px;
+}
+
+
+@media ( max-width: 768px) {
+    
+    div{
+        display :flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .queen{
+        display: none;
+    }
+
+  
+}
+
+@media ( max-width: 1024px) 
+   
