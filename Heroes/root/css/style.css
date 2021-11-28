@@ -170,12 +170,3 @@ h2{
 
   
 }
-
-@media ( max-width: 1024px) {
-    div{
-        display: grid;
-        grid-gap: 8px;
-
-}
-
-}
